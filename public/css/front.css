@@ -1,0 +1,469 @@
+
+    body {
+        overflow-y: scroll;
+    }
+
+    .container {
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        align-Items: center;
+    }
+
+a,button{
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 10px 5px #fb010133;
+}
+
+
+    .footerItem {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        justify-Content: center;
+        align-Items: center;
+        text-Align: center;
+
+
+    }
+
+
+
+    .footerContainer {
+        display: flex;
+        justify-Content: space-evenly;
+        align-Items: center;
+        padding: 2px;
+
+        flex-Wrap: wrap;
+
+    }
+
+
+
+    form {
+        width: 100%;
+        margin-Top: 1px
+    }
+
+
+
+    .submit {
+        margin: 3 0 2;
+        background-Color: #fb0102;
+        color: white;
+    }
+
+
+
+    .navbar {
+        background-Color: #fff;
+        padding: 10px 5px;
+    }
+
+
+
+    .navbarList {
+        list-Style-Type: none;
+        display: flex;
+        justify-Content: flex-start;
+    }
+
+    .navbar a{
+        color: #343434;
+
+    }
+
+    .navbarButtonLogin {
+        background-Color: #fff;
+        color: red;
+        padding: 5px 10px;
+        margin-Right: 10px;
+        border-Color: red;
+        border-Radius: 5px;
+    }
+
+
+
+    .navbarButtonSignup {
+        background-Color: red;
+        color: #fff;
+        padding: 5px 10px;
+        margin-Right: 10px;
+        border-Radius: 5px;
+
+    }
+
+
+
+    .searchContainer {
+        display: flex;
+        flex-Direction: column;
+        gap: 30px;
+        background-Color: #fff;
+        padding: 10px;
+        border-Radius: 10px;
+        width: 700px;
+
+
+    }
+
+
+
+    .searchSeactionOne {
+        display: flex;
+        flex-Direction: row;
+        justify-Content: space-between;
+        color: black
+    }
+
+
+
+    .searchSeactionTwo {
+        display: flex;
+        flex-Direction: row;
+        gap: 10px;
+        color: black;
+
+    }
+
+
+
+    .searchElement {
+        padding: 5px 10px;
+    }
+
+
+
+    .footer {
+        background-Color: #f1f1f1;
+        padding: 10px;
+        display: flex;
+        justify-Content: space-between;
+    }
+
+
+
+    .footerSection {
+        flex: 1;
+        margin-Right: 10px;
+    }
+
+
+
+    .bigContainer {
+        height: 600px;
+        background-image: url(../images/bus-station1.png);
+
+        position: relative;
+        background-Size: cover;
+        display: flex;
+        justify-Content: center;
+        align-Items: center;
+    }
+
+
+
+    .overlay {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-Color: rgba(0, 0, 0, 0.6);
+        z-Index: 1;
+
+    }
+
+    .searchBox {
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-Direction: column;
+        justify-Content: center;
+        align-Items: center;
+        gap: 10px;
+        color: white;
+        z-Index: 2
+    }
+
+
+
+    /* // section */
+    .sectionHowWork {
+        margin: 100px 0px;
+        display: flex;
+        flex-Direction: column;
+        justify-Content: space-evenly;
+        align-Items: center;
+    }
+
+
+
+    .sectionHowWorkHeader {
+        margin-Bottom: 20px;
+        font-Weight: 700px;
+        font-Size: 64px;
+
+    }
+
+
+
+    .workTypes {
+        display: flex;
+        gap: 20px;
+
+    }
+
+
+
+    .workType {
+        display: flex;
+        flex-Direction: column;
+        gap: 20px;
+        justify-Content: center;
+        align-Items: center;
+        flex: 1;
+    }
+
+
+
+    .sectionHowWorkIcon {
+        font-Size: 1.5rem;
+        background-Color: rgba(250, 242, 242, 0.4);
+        padding: 10px 15px;
+        color: #F90405;
+        border-Radius: 50%
+    }
+
+
+
+    /* // .Section .Success */
+    .sectionSuccess {
+        padding: 50px 20px;
+        background-Color: rgba(51, 51, 51, 0.01);
+        display: flex;
+        flex-Direction: column;
+        justify-Content: center;
+        align-Items: center;
+    }
+
+
+
+    .SuccessPantners {
+        display: flex;
+        justify-Content: space-evenly;
+        align-Items: center;
+        gap: 60px;
+
+    }
+
+
+
+    .SuccessPantner {
+
+        display: flex;
+        color: rgba(51, 51, 51, 0.6);
+        font-Size: 30px;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+
+
+    /* // Customers */
+    .customersSectionHeader {
+        margin-Bottom: 20px;
+        font-Weight: 700px;
+        font-Size: 64px;
+
+    }
+
+
+
+    .customersSectionPara {
+        color: rgba(79, 86, 101, 1);
+        margin: 20px 0px;
+    }
+
+
+
+    /* // Questions */
+    .questions {
+        background-Color: white;
+        padding: 20px 10px;
+    }
+
+
+
+    .questionIcon {
+        color: rgba(249, 4, 5, 1);
+    }
+
+
+
+    .questionAnswer {
+        display: none;
+        color: rgba(46, 82, 107, 1);
+        font-Weight: 20.39px;
+    }
+
+
+
+    .tripDetials {
+        border: dashed 2px rgba(221, 224, 228, 1);
+        padding: 10px 20px;
+
+        cursor: pointer;
+    }
+
+
+
+    .tripLocations {
+        display: flex;
+        justify-Content: space-between
+    }
+
+
+
+    .tripType {
+        display: flex;
+        flex-Direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+
+
+    .searchBox {
+        z-Index: 1;
+        text-Align: center;
+        color: #fff;
+        padding: 2px;
+    }
+
+    .FAQ {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        margin: auto;
+        border-radius: 15px;
+        margin-bottom: 240px;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        overflow: hidden;
+
+    }
+    .title h1{
+        font-weight: 800;
+    }
+    .con{
+        display: flex;
+        gap: 30px;
+        max-width: 80%;
+        margin: auto;
+        align-items: center;
+        margin-bottom: 4vh;;
+        overflow: hidden;
+
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        min-width: 30%;
+        min-height: 190px;
+        border: gray solid 2px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
+    .card:hover{
+        border: #fb0102 solid 2px;
+        cursor: pointer;
+        box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+
+    }
+    .top{
+        display: flex;
+        justify-content: space-around;
+        gap: 15px;
+        padding: 5px;
+        margin: auto;
+        align-items: center;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+    small{
+        color: gray;
+
+    }
+    .top span{
+        color:#F99A0E
+
+    }
+    .top img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%
+    }
+    .message {
+        display: flex;
+        max-width: 80%;
+        margin: auto;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+    }
+    .title i{
+      
+        color: #F90405;
+        background: #fff;
+     
+      
+        text-align: center;
+
+    }
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+    .control{
+        display: flex;
+    gap: 30px;
+    flex-basis: 100%;
+    width: 70%;
+    justify-content: space-between;
+
+    }
+    .control span{
+        color: #F90405;
+        background: #fff;
+        border: #F90405 solid 1px;
+        border-radius: 50%;
+        font-size: 36px;
+      
+        text-align: center;
+
+    }
+    .control span:hover{
+        background: #F90405;
+        color: #fff;
+        cursor: pointer;
+    }
